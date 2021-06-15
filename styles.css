@@ -1,0 +1,153 @@
+/*header text*/
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  margin: 50px 10px 30px 10px;
+}
+
+/*color overlay for header text*/
+
+#highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+/*description text properties*/
+
+.description {
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0px 30px 40px 30px;
+}
+
+/*title of the badges section properties*/
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  margin: 90px 25px 20px 25px;
+}
+
+/*card outlay*/
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* container for what's inside the card*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*footer section properties*/
+
+#badges {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*picture with color overlay*/
+
+#picture {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  filter: contrast(1.9);
+  background: linear-gradient(
+      hsl(277deg 24% 39% / 70%),
+      hsl(277deg 24% 39% / 70%)
+    ),
+    url(images/image-header-mobile.jpg) no-repeat center center / cover;
+  height: 20rem;
+  width: 100%;
+  flex-shrink: 5;
+}
+
+/*screens more than 1024 pixels section*/
+
+@media screen and (min-width: 1024px) {
+  /*update body section outlay*/
+
+  body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*change in card outlay*/
+
+  .card {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 0px;
+    border-radius: 7px;
+    width: 70vw;
+  }
+
+  /*change in container Outlay*/
+
+  .container {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40vw;
+  }
+
+  /*change in badges outlay*/
+
+  #badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 60px 30px 80px;
+    width: 60%;
+  }
+
+  /*update the picture properties*/
+
+  #picture {
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 0px;
+    background: linear-gradient(
+        hsl(277deg 24% 39% / 70%),
+        hsl(277deg 24% 39% / 70%)
+      ),
+      url(images/image-header-desktop.jpg) no-repeat center / cover;
+    height: 60vh;
+  }
+
+  .description {
+    margin: 0px 100px 30px 80px;
+  }
+
+  h1 {
+    margin: 70px 100px 30px 80px;
+  }
+}
