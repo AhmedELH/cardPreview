@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot-wide.png)
-![](./design/screenshot-mobile.png)
+![landscape view](design/screenshot-wide.png)
+![portrait view](design/screenshot-mobile.png)
 
 
 ### Links
@@ -37,6 +37,7 @@ Users should be able to:
 
 - [Author](#author)
 Ahmed H.
+
 Frontendmentor Url: https://www.frontendmentor.io/profile/viiahmed
 
 
