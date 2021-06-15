@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Screenshot
 
-![landscape view](./design/screenshot-wide.png)
-![portrait view](./design/screenshot-mobile.png)
+![landscape view](design/Screenshot-wide.png)
+![portrait view](design/Screenshot-mobile.png)
 
 
 ### Links
